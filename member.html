@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Member | SYN-Sites</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .member-title {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 24px;
+            margin-top: 32px;
+            text-align: center;
+            color: #222;
+        }
+        .member-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        .member-card {
+            background: rgba(255,255,255,0.7);
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 24px 32px;
+            min-width: 220px;
+            text-align: center;
+            opacity: 0;
+            transform: translateX(-40px);
+            animation: slide-in 0.7s forwards;
+        }
+        .member-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 12px;
+            background: #eee;
+        }
+        @keyframes slide-in {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="content" style="flex-direction:column;align-items:center;">
+        <div class="member-title">Member</div>
+        <div class="member-list" id="member-list"></div>
+    </div>
+    <script>
+        
+        fetch('header.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+
+    
+        fetch('./data/member.json')
+            .then(res => res.json())
+            .then(members => {
+                const list = document.getElementById('member-list');
+                members.forEach((m, i) => {
+                    const card = document.createElement('div');
+                    card.className = 'member-card';
+                    card.style.animationDelay = (i * 0.15) + 's'; 
+                    card.innerHTML = `
+                        <img src="${m.iconurl || 'https://placehold.co/80x80?text=No+Image'}" alt="${m.name}">
+                        <div style="font-size:1.3em;font-weight:bold;">${m.name}</div>
+                        <div style="margin-top:8px;">部門:${m.Department}</div>
+                    `;
+                    list.appendChild(card);
+                });
+            });
+    </script>
+</body>
+</html>

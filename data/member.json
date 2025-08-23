@@ -1,7 +1,16 @@
 
 [
     {
-        "name":"莉音",
+        "name":"テスト",
+        "Department":"運営",
+        "explanation":"",
+        "SNS":{
+            "X":"https://www.x.com/mero_rion"
+        },
+        "iconurl":""
+    },
+    {
+        "name":"テスト",
         "Department":"運営",
         "explanation":"",
         "SNS":{
