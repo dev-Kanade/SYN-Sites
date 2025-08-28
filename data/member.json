@@ -1,21 +1,100 @@
-
 [
     {
-        "name":"テスト",
+        "name":"ぴよぴー",
+        "Department":"オーナー",
+        "explanation":"",
+        "SNS":{},
+        "iconurl":"https://pbs.twimg.com/profile_images/1944520354313142272/10WFTbOk_400x400.jpg"
+    },
+    {
+        "name":"すらむ！",
         "Department":"運営",
         "explanation":"",
-        "SNS":{
-            "X":"https://www.x.com/mero_rion"
-        },
+        "SNS":{},
+        "iconurl":"https://pbs.twimg.com/profile_images/1957811498996387840/rJgJW0YR_400x400.jpg"
+    },
+    {
+        "name":"Clever",
+        "Department":"運営",
+        "explanation":"",
+        "SNS":{},
+        "iconurl":"https://media.discordapp.net/attachments/1408440266775597169/1409100320297979945/IMG_2166.png?ex=68ac2670&is=68aad4f0&hm=b1eb96561daac86403af0737430d320cb13dd456576839c1e056cbe54a4acf18&=&format=webp&quality=lossless&width=648&height=648"
+    },
+    {
+        "name":"莉音",
+        "Department":"運営",
+        "explanation":"",
+        "SNS":{},
+        "iconurl":"https://pbs.twimg.com/profile_images/1936906220104798208/eopN24Za_400x400.jpg"
+    },
+    {
+        "name":"くろちゃ",
+        "Department":"競技",
+        "explanation":"",
+        "SNS":{},
+        "iconurl":"https://media.discordapp.net/attachments/1409143186189975592/1409143243320332300/81WYwRLMBFL._CR320019201920_SX1440_CR0014401280_.jpg?ex=68ac4e69&is=68aafce9&hm=9a4cb0e85a5df8960cf5aff2b1b10b626ab32806f6fc0b9a0b8993f66d1e1531&=&format=webp&width=729&height=648"
+    },
+    {
+        "name":"ここあ",
+        "Department":"競技",
+        "explanation":"",
+        "SNS":{},
         "iconurl":""
     },
     {
-        "name":"テスト",
-        "Department":"運営",
+        "name":"Azul",
+        "Department":"競技",
         "explanation":"",
-        "SNS":{
-            "X":"https://www.x.com/mero_rion"
-        },
+        "SNS":{},
+        "iconurl":""
+    },
+    {
+        "name":"Reikusu",
+        "Department":"競技",
+        "explanation":"",
+        "SNS":{},
+        "iconurl":""
+    },
+    {
+        "name":"らむる",
+        "Department":"育成",
+        "explanation":"",
+        "SNS":{},
+        "iconurl":"https://pbs.twimg.com/profile_images/1871877986926133248/AiiCV_Jo_400x400.jpg"
+    },
+    {
+        "name":"らっこのREN",
+        "Department":"育成",
+        "explanation":"",
+        "SNS":{},
+        "iconurl":""
+    },
+    {
+        "name":"pixio",
+        "Department":"育成",
+        "explanation":"",
+        "SNS":{},
+        "iconurl":"https://media.discordapp.net/attachments/1409092059838550166/1409093089506758696/20_20250824172947.png?ex=68ac1fb4&is=68aace34&hm=725f4621723a9486a3cc2856dde26329679c6a89b1c52f0f11da250b3a47f80c&=&format=webp&quality=lossless"
+    },
+    {
+        "name":"Chobi",
+        "Department":"育成",
+        "explanation":"",
+        "SNS":{},
+        "iconurl":"https://media.discordapp.net/attachments/1409327008751685652/1409507749641060412/4F4AEACC-D235-4A33-BDAC-A06F69D52225.jpg?ex=68ada1e2&is=68ac5062&hm=d17ac2e50c38e30ddd5283fa39b202bb91eecacc88db7ace14efe76316b0ec83&=&format=webp&width=441&height=648"
+    },
+    {
+        "name":"Castor Yuga",
+        "Department":"育成",
+        "explanation":"",
+        "SNS":{},
+        "iconurl":"https://media.discordapp.net/attachments/1409092059838550166/1409097197475074129/G6T_d2u5_400x400.jpg?ex=68ac2387&is=68aad207&hm=64355ab39cfe0f3b55717e5c29da41d4cd839494b885b901fb1c871b160084f9&=&format=webp"
+    },
+    {
+        "name":"ぺいり",
+        "Department":"育成(仮入隊)",
+        "explanation":"",
+        "SNS":{},
         "iconurl":""
     }
 ]
