@@ -2,8 +2,36 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>Member | SYN-Sites</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Member | SYN</title>
+    <style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    }
+
+    .content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    h1 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    }
+    p {
+        color :#ffffff
+    }
+
+    </style>
     <style>
         .member-title {
             font-size: 2.5em;
@@ -11,7 +39,7 @@
             margin-bottom: 24px;
             margin-top: 32px;
             text-align: center;
-            color: #222;
+            color: #000000;
         }
         .member-list {
             display: flex;
@@ -21,9 +49,9 @@
             margin-bottom: 40px;
         }
         .member-card {
-            background: rgba(255,255,255,0.7);
+            background: rgba(80, 73, 73, 0.7);
             border-radius: 16px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            box-shadow: 0 2px 8px rgb(73, 69, 69);
             padding: 24px 32px;
             min-width: 220px;
             text-align: center;
@@ -37,7 +65,7 @@
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 12px;
-            background: #eee;
+            background: #000000;
         }
         @keyframes slide-in {
             to {
@@ -45,6 +73,7 @@
                 transform: translateX(0);
             }
         }
+        
     </style>
 </head>
 <body>

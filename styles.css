@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #87CEEB, #E6E6FA);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -18,23 +18,23 @@ body {
 }
 
 h1 {
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 48px;
 }
 
 .typing {
     font-size: 36px;
-    color: black;
+    color: rgb(0, 0, 0);
     min-height: 48px;
     letter-spacing: 2px;
-    border-right: 2px solid #333;
+    border-right: 2px solid #000000;
     white-space: nowrap;
     overflow: hidden;
     animation: blink-caret 0.7s steps(1) infinite;
 }
 
 @keyframes blink-caret {
-    0%, 100% { border-color: #333; }
+    0%, 100% { border-color: #000000; }
     50% { border-color: transparent; }
 }
 
