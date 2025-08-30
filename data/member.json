@@ -46,14 +46,14 @@
         "Department":"競技",
         "explanation":"",
         "SNS":{},
-        "iconurl":""
+        "iconurl":"./data/icon/0016.webp"
     },
     {
         "name":"とら",
         "Department":"競技",
         "explanation":"",
         "SNS":{},
-        "iconurl":""
+        "iconurl":"./data/icon/0017.webp"
     },
     {
         "name":"ここあ",
@@ -67,14 +67,14 @@
         "Department":"競技",
         "explanation":"",
         "SNS":{},
-        "iconurl":""
+        "iconurl":"./data/icon/0013.webp"
     },
     {
         "name":"Reikusu",
         "Department":"競技",
         "explanation":"",
         "SNS":{},
-        "iconurl":""
+        "iconurl":"./data/icon/0015.webp"
     },
     {
         "name":"よっしーふぃっしー",
@@ -130,7 +130,7 @@
         "Department":"育成",
         "explanation":"",
         "SNS":{},
-        "iconurl":""
+        "iconurl":"./data/icon/0014.webp"
     },
     {
         "name":"98765",
