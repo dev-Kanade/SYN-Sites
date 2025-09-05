@@ -139,4 +139,13 @@
         "SNS":{},
         "iconurl":""
     }
+    ,
+    {
+        "name":"Mico",
+        "Department":"育成",
+        "explanation":"",
+        "SNS":{},
+        "iconurl":""
+    }
+
 ]
