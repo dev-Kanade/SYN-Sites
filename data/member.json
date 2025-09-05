@@ -77,6 +77,13 @@
         "iconurl":"./data/icon/0015.webp"
     },
     {
+        "name":"LBworksの次男",
+        "Department":"競技",
+        "explanation":"",
+        "SNS":{},
+        "iconurl":"./data/icon/0018.webp"
+    },
+    {
         "name":"よっしーふぃっしー",
         "Department":"ストリーマー",
         "explanation":"",
@@ -126,13 +133,6 @@
         "iconurl":"./data/icon/0012.webp"
     },
     {
-        "name":"LBworksの次男",
-        "Department":"育成",
-        "explanation":"",
-        "SNS":{},
-        "iconurl":"./data/icon/0014.webp"
-    },
-    {
         "name":"98765",
         "Department":"育成",
         "explanation":"",
@@ -149,3 +149,4 @@
     }
 
 ]
+
